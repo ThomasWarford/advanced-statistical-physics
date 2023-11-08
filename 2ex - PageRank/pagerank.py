@@ -63,5 +63,5 @@ label_dict=nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
 offset(label_dict, pos)
 
 # Show the network
-plt.title("Stochastic Matrix as a Network")
+plt.title("PageRank - d={DAMPING_FACTOR}")
 plt.show()
